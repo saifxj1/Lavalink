@@ -6,9 +6,15 @@ spring:
   cloud:
     config:
       enabled: false
+
 server:
+  port: 2333
   error:
     include-message: ALWAYS
     include-binding-errors: ALWAYS
     include-stacktrace: ON_PARAM
     include-exception: false
+
+lavalink:
+  server:
+    password: "falconsky"
